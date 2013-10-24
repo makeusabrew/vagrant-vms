@@ -4,3 +4,12 @@
 [submodule "conf/puppet/modules/apt"]
 	path = conf/puppet/modules/apt
 	url = https://github.com/puppetlabs/puppetlabs-apt.git
+[submodule "conf/puppet/modules/postgresql"]
+	path = conf/puppet/modules/postgresql
+	url = https://github.com/puppetlabs/puppetlabs-postgresql
+[submodule "conf/puppet/modules/firewall"]
+	path = conf/puppet/modules/firewall
+	url = https://github.com/puppetlabs/puppetlabs-firewall
+[submodule "conf/puppet/modules/concat"]
+	path = conf/puppet/modules/concat
+	url = https://github.com/puppetlabs/puppetlabs-concat

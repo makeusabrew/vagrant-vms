@@ -39,9 +39,4 @@ class rails {
         require => Exec['install_ruby'],
     }
 
-    exec { "${as_vagrant} 'rails server -d'":
-        cwd     => "/vagrant/src/ruby",
-        creates => "/vagrant/src/ruby/tmp/pids/server.pid",
-    }
-
 }

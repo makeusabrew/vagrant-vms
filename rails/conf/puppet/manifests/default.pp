@@ -2,4 +2,4 @@ class { "nodejs": }
 
 class { "rails": }
 
-# @TODO postgreSQL setup etc
+class { 'postgresql::server': }
